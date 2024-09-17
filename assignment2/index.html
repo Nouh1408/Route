@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal</title>
+</head>
+<body>
+    <form>
+        <fieldset style="background-color: #e6e6fa;">
+            <legend style="background-color:#f08080"><b>Personal Data</b></legend>
+            <fieldset style="background-color: #fffacd;">
+                <legend style="background-color: #f08080;"><b>Your Name</b></legend>
+                <label for="firstname">Firstname: </label>
+                <input type="text" id="firstname" placeholder="Enter your firstname"><br>
+
+                <label for="secondname">Secondname: </label>
+                <input type="text" id="secondname" placeholder="Enter your secondname">
+            </fieldset>
+            <br>
+            <label for="phoneNumber">Your Phone: </label>
+            <input type="text" id="phoneNumber" placeholder="Enter your phone"><br>
+
+            <label for="Email">Email: </label>
+            <input type="email" name="email" id="Email" placeholder="Enter your email"><br>
+
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Enter your password"><br>
+
+            <label for="re-enter">Re-enter password:</label>
+            <input type="password" id="re-enter" placeholder="Re-enter password"><br><br>
+
+            <p>Choose your gender:</p>
+            <input type="radio" value="male" id="male" name="gender">
+            <label for="male">Male</label>
+
+            <input type="radio" value="female" id="female" name="gender">
+            <label for="female">Female</label>
+            <br><br>
+
+            <input type="checkbox" name="lang" id="student" value="student">
+            <label for="student">Student</label><br>
+
+            <input type="checkbox" name="lang" id="graduated">
+            <label for="graduated">Graduated</label>
+            <br><br>
+
+            <label for="uni">Select your university:</label><br>
+            <select name="University" id="uni" >
+                <option value=""></option>
+                <option value="AUC">AUC</option>
+                <option value="NMU">NMU</option>
+                <option value="Mansoura University">Mansoura University</option>
+                <option value="HUE">Horus University</option>
+            </select>
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
