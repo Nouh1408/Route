@@ -17,19 +17,27 @@
                 <label for="secondname">Secondname: </label>
                 <input type="text" id="secondname" placeholder="Enter your secondname">
             </fieldset>
-            <br>
-            <label for="phoneNumber">Your Phone: </label>
-            <input type="text" id="phoneNumber" placeholder="Enter your phone"><br>
-
-            <label for="Email">Email: </label>
-            <input type="email" name="email" id="Email" placeholder="Enter your email"><br>
-
-            <label for="password">Password: </label>
-            <input type="password" name="password" id="password" placeholder="Enter your password"><br>
-
-            <label for="re-enter">Re-enter password:</label>
-            <input type="password" id="re-enter" placeholder="Re-enter password"><br><br>
-
+            <br><br><br>
+            <form>
+                <table>
+                  <tr>
+                    <td><label for="phoneNumber">Your Phone:</label></td>
+                    <td><input type="text" id="phoneNumber" placeholder="Enter your phone"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="Email">Email:</label></td>
+                    <td><input type="email" name="email" id="Email" placeholder="Enter your email"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password" id="password" placeholder="Enter your password"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="re-enter">Re-enter password:</label></td>
+                    <td><input type="password" id="re-enter" placeholder="Re-enter password"></td>
+                  </tr>
+                </table>
+              </form>
             <p>Choose your gender:</p>
             <input type="radio" value="male" id="male" name="gender">
             <label for="male">Male</label>
@@ -45,13 +53,31 @@
             <label for="graduated">Graduated</label>
             <br><br>
 
-            <label for="uni">Select your university:</label><br>
+            <!-- <label for="uni">Select your university:</label><br>
             <select name="University" id="uni" >
                 <option value=""></option>
                 <option value="AUC">AUC</option>
                 <option value="NMU">NMU</option>
                 <option value="Mansoura University">Mansoura University</option>
                 <option value="HUE">Horus University</option>
+            </select> -->
+            <select name="University" id="uni">
+                <option value="0">Choose Car</option>
+                <optgroup label="German">
+                    <option value="BMW">BMW</option>
+                    <option value="Mercedes-Benz">Mercedes-Benz</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Porsche">Porsche</option>
+                    <option value="Volkswagen">Volkswagen</option>
+                </optgroup>
+                <optgroup label="Italian">
+                    <option value="Ferrari">Ferrari</option>
+                    <option value="Lamborgini">Lamborgini</option>
+                    <option value="Maserati">Maserati</option>
+                    <option value="Pagani">Pagani</option>
+                    <option value="Alfa Romeo">Alfa Romeo</option>
+                </optgroup>
+
             </select>
             <br><br>
 
