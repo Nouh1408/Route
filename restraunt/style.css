@@ -1,6 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .home{
-    background-color: chocolate;
+    background-image: url("/restraunt/images/shutterstock_277750193.jpg");
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 .home .caption{
-    
+    color: #fff;
+    width: 40%;
+    margin: 100px auto 0;
+    text-align: center;
+}
+.home .caption p{
+    font-family: "Dancing Script", "cursive;";
+    font-size: 230%;
+}
+.home .caption .btns{
+    margin-top: 20px;
+}
+.home .caption .btns .btn-1{
+    background-color: #c1ab84;
+}
+.home .caption a{
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 15px 22px;
+    border-radius: 10px;
+    font-weight: 500px;
 }
