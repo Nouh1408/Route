@@ -20,18 +20,3 @@
     font-family: "Dancing Script", "cursive;";
     font-size: 230%;
 }
-.home .caption .btns{
-    margin-top: 20px;
-}
-.home .caption .btns .btn-1{
-    background-color: #c1ab84;
-}
-.home .caption a{
-    color: #000;
-    font-size: 30px;
-    text-decoration: none;
-    background-color: #fff;
-    padding: 15px 22px;
-    border-radius: 10px;
-    font-weight: 500px;
-}
