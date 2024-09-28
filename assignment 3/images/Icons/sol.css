@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+body{
+    font-family: "Alegreya", system-ui;
+}
+p{
+    font-family: "Alegreya Sans", system-ui;
+    color: rgb(104, 104, 104);
+}
+.logo{
+    background-color: aqua;
+}
+.logo,.nav-list{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+.nav-list li{
+    display: inline-block;
+}
