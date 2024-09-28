@@ -18,6 +18,7 @@ p{
 }
 .logo,.nav-list{
     display: inline-block;
+    vertical-align: middle;
 }
 ul{
     list-style: none;
@@ -25,3 +26,15 @@ ul{
 .nav-list li{
     display: inline-block;
 }
+.nav-list{
+    margin-left: 100px;
+    padding-left: 100px;
+}
+#home{
+    background-image: url("/assignment 3/images/drew-coffman-1872.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    color: white;
+}
+/* home caption */
