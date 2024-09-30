@@ -13,8 +13,18 @@ p{
     font-family: "Alegreya Sans", system-ui;
     color: rgb(104, 104, 104);
 }
-.logo{
-    background-color: aqua;
+#home p{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+span,button{
+    font-family: "Alegreya Sans", system-ui;
+    color: white;
+}
+#home a{
+    color: white;
 }
 .logo,.nav-list{
     display: inline-block;
@@ -23,8 +33,12 @@ p{
 ul{
     list-style: none;
 }
+.logo img{
+    width: 120px;
+}
 .nav-list li{
     display: inline-block;
+    margin: 10px;
 }
 .nav-list{
     margin-left: 100px;
@@ -37,4 +51,47 @@ ul{
     background-position: center;
     color: white;
 }
-/* home caption */
+.home-caption{
+    text-align: center;
+    margin-top: 120px;
+}
+.home-caption h1{
+    font-size: 76px;
+    font-weight: 400;
+}
+.btn1{
+    background-color: #8E7754;
+    color: white;
+    padding: 10px;
+    border-color: transparent;
+}
+.home-btn{
+    margin-top: 10px;
+}
+#home p{
+    line-height: 25x;
+}
+.btn2{
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.outer{
+    width: 20px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.animation{
+    width: fit-content;
+    margin: 10px auto;
+}
+.inner{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px 0 0 5px;
+    
+}
