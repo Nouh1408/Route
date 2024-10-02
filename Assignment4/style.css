@@ -1,20 +1,26 @@
 a{
     text-decoration: none;
+    
 }
 li{
     list-style: none;
+    
 }
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-#name-top-left{
+.container{
+    width: 85%;
+    margin: auto;
+}
+#name{
     font-family: "Roboto", sans-serif;
     color:  #FF305B;
 }
-.home{
+#home{
     background-image: url("./Fokir_Images/header.jpeg");
-    background-size: 100% 100%;
+    background-size: cover;
     height: 100vh;
+    background-position: center;
 }
