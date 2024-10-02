@@ -24,3 +24,24 @@ li{
     height: 100vh;
     background-position: center;
 }
+#name, .nav-list{
+    display: inline-block;
+}
+.nav-list li{
+    display: inline-block;
+}
+.nav-list{
+    margin-left: 100px;
+    padding-left: 100px;
+}
+.home-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    text-align: center;
+}
+.home-content , h3,h1,h4{
+    margin-top: 10px;
+}
