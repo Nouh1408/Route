@@ -1,10 +1,9 @@
 a{
     text-decoration: none;
-    
 }
 li{
     list-style: none;
-    
+    margin-left: 15px;
 }
 *{
     margin: 0;
@@ -14,15 +13,21 @@ li{
     width: 85%;
     margin: auto;
 }
-#name{
+#name a{
     font-family: "Roboto", sans-serif;
     color:  #FF305B;
+    font-size: 24px;
+    font-weight: 800;
+
 }
 #home{
-    background-image: url("./Fokir_Images/header.jpeg");
+    /* background-image: url("./Fokir_Images/header.jpeg"); */
     background-size: cover;
     height: 100vh;
-    background-position: center;
+    background: rgba(0, 0, 0, 0.8) url("./Fokir_Images/header.jpeg");
+    background-position:center;
+    background-blend-mode: darken;
+    opacity: 0.8;
 }
 #name, .nav-list{
     display: inline-block;
@@ -44,4 +49,22 @@ li{
 }
 .home-content , h3,h1,h4{
     margin-top: 10px;
+}
+.home-content h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;   
+    font-family: "Source Sans 3", sans-serif;
+}
+.home-content h1{
+    color: #FF305B;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+}
+.home-content h4{
+    color: #ffff;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 300px;
+    font-size: 26px;
 }
