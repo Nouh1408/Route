@@ -1,3 +1,6 @@
+.padding-section{
+    padding: 20px 0;
+}
 a{
     text-decoration: none;
     color: #ffff;
@@ -69,3 +72,70 @@ li{
     font-weight: 300px;
     font-size: 26px;
 }
+/* about css */
+.about-me .img-me{
+    width: 48%;
+    float: left;
+    text-align: center;
+}
+.about-me .about-contnet{
+    width: 48%;
+    float: right;
+    vertical-align: top;
+}
+.about-me .img-me img{
+    width: 100%;
+    height: 500px;
+}
+/* .about-me .img-me .frame{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    border: solid #555555 10px;
+} */
+ .about-me .about-contnet h2{
+    color: #333333;
+    font-weight: 600;
+    font-size: 34px;
+ }
+ .about-me .about-contnet span{
+    color: #FF305B;
+ }
+ .about-me .about-contnet p{
+    color:  #555555;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+ }
+ .about-me hr{
+    border-top: 1px dotted #555555;
+ }
+ .about-me .about-contnet .about-list{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    list-style: none;
+    padding: 0;
+ }
+ .about-me .about-contnet .about-btns a{
+    transition: 0.3s;
+ }
+ .about-me .about-contnet .about-btns a:hover {
+    background-color: #EC2402;
+ }
+
+ .about-me .about-contnet .about-btns .btn1{
+    color: white;
+    background-color: #FF305B;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-right: 20px;
+ }
+ .about-me .about-contnet .about-btns .btn2{
+    color: white;
+    background-color: #FF305B;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-left: 5px;
+ }

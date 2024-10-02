@@ -4,21 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-   .icon-list {
-  list-style-type: none; /* Remove default bullets */
-  padding: 0;
+   .grid-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 10px; /* Optional: space between items */
+    list-style: none; /* Remove bullets */
+    padding: 0;
 }
 
-.icon-list li {
-  margin-bottom: 10px; /* Adds space between the list items */
-  overflow: hidden; /* Ensures proper layout when using float */
-}
-
-.icon-list img {
-  width: 24px; /* Adjust the size of the icons */
-  height: 24px;
-  float: left; /* Floats the icon to the left of the text */
-  margin-right: 10px; /* Adds space between the icon and the text */
+.grid-list li {
+    background-color: #f0f0f0; /* Optional: for styling */
+    padding: 10px; /* Optional: space inside each item */
+    text-align: center; /* Optional: center text */
 }
 
 
@@ -26,17 +23,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="text">
-        <h2>Who we are?</h2><br><br>
-        <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p><br>
-    
-        <ul class="icon-list">
-            <li><img src="../assignment 3/images/Icons/arrow.png" alt="leaf-icon">We care about environment</li>
-            <li><img src="../assignment 3/images/Icons/check.png" alt="people-icon">We are trusted by hundreds of clients</li>
-            <li><img src="../assignment 3/images/Icons/earth.png" alt="heart-icon">Social media loves us!</li>
-            <li><img src="../assignment 3/images/Icons/email.png" alt="check-icon">This list is super easy</li>
-        </ul>
-    </div>
+  <ul class="grid-list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+    <li>Item 6</li>
+  </ul>
+  
     
 </body>
 </html>
