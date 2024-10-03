@@ -125,6 +125,7 @@ ul{
     vertical-align: top;
     margin-top: 40px;
     padding-left: 20px;
+    float: right;
 }
 .about-details p{
     line-height: 25px;
@@ -132,3 +133,37 @@ ul{
 }
 
 /* location */
+.location-details{
+    vertical-align: top;
+    margin-top: 50px;
+}
+#location{
+    background-color: #f8f8f8;
+}
+.location-details h2{
+    color: #303030;
+    font-family: "Alegreya", system-ui;
+    font-size: 32px;
+    font-weight: 400;   
+}
+.location-details p{
+    color:  #686868;
+    line-height: 30px;
+}
+
+/* baking */
+.item{
+    width: 33.333%;
+    float: left;
+    text-align: center;
+}
+.clr{
+    clear: both;
+}
+.head{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.item img{
+    width: 90%;
+}
