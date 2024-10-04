@@ -6,6 +6,12 @@ a{
     color: #ffff;
     font-family: "Roboto", sans-serif;
 }
+#home .container .nav-list a{
+    transition: 0.3s;
+}
+#home .container .nav-list a:hover{
+    color: #FF305B;
+}
 li{
     list-style: none;
     margin-left: 15px;
@@ -42,6 +48,10 @@ li{
 .nav-list{
     margin-left: 100px;
     padding-left: 100px;
+    float: right;
+}
+.nav-bar{
+    margin-top: 10px;
 }
 .home-content{
     position: absolute;
@@ -66,10 +76,10 @@ li{
     font-weight: 700;
     font-family: "Source Sans 3", sans-serif;
 }
-.home-content h4{
+#home .home-content h4{
     color: #ffff;
     font-family: "Source Sans 3", sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 26px;
 }
 /* about css */
@@ -78,14 +88,17 @@ li{
     float: left;
     text-align: center;
 }
+.about-me .img-me img{
+    width: 50%;
+}
 .about-me .about-contnet{
     width: 48%;
     float: right;
     vertical-align: top;
 }
 .about-me .img-me img{
-    width: 100%;
-    height: 500px;
+    width: 60%;
+    /* height: 500px; */
 }
 /* .about-me .img-me .frame{
     width: 300px;
@@ -97,9 +110,17 @@ li{
     color: #333333;
     font-weight: 600;
     font-size: 34px;
+    margin-left: 20px;
+    position: relative;
  }
- .about-me .about-contnet span{
-    color: #FF305B;
+ .about-me .about-contnet h2::before{
+    position: absolute;
+    background-color: #FF305B;
+    width: 5px;
+    content: "";
+    left: -20px;
+    bottom: 2px;
+    height: 35px;
  }
  .about-me .about-contnet p{
     color:  #555555;
