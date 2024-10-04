@@ -20,6 +20,9 @@ li{
     margin: 0;
     padding: 0;
 }
+.clr{
+    clear: both;
+}
 .container{
     width: 85%;
     margin: auto;
@@ -83,6 +86,9 @@ li{
     font-size: 26px;
 }
 /* about css */
+.about-me{
+    overflow: hidden;
+}
 .about-me .img-me{
     width: 48%;
     float: left;
@@ -97,7 +103,11 @@ li{
     vertical-align: top;
 }
 .about-me .img-me img{
+    position: absolute;
     width: 60%;
+    left: 200px;
+    /* border: 3px solid red; */
+    /* z-index: 1; */
     /* height: 500px; */
 }
 /* .about-me .img-me .frame{
@@ -160,3 +170,124 @@ li{
     padding: 10px 15px;
     margin-left: 5px;
  }
+ .about-me .img-me .frame{
+    position: relative;
+    border: #FF305B;
+    background-color: #EC2402;
+ }
+/* our services */
+#our-services .container  {
+    width: 100%;
+}
+#our-services{
+    overflow: hidden;
+}
+#our-services .head{
+    text-align: center;
+}
+#our-services .container .item{
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+#our-services .head{
+    margin-bottom: 20px;
+    border-bottom: #FF305B solid 1px;
+    width: 25%;
+    margin: auto;
+}
+#our-services .head h2{
+    font-weight: 800;
+    font-size: 40px;
+    font-family: "Source Sans 3", sans-serif;
+    color: #333333;
+}
+#our-services .container .item h3{
+    color: #333333;
+    font-weight: 600;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+}
+#our-services .container .item p{
+    color: #555555;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 20px;
+}
+#our-services .container .item i{
+    color: #FF305B;
+    font-size: 30px;
+}
+/* POTFOLIO */
+#portfolio .container .heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Source Sans 3", sans-serif;
+    color: #333333;
+}
+#portfolio .container .nav li{
+    display: inline-block;
+    color: #333333;
+    margin-top: 20px;
+}
+#portfolio .container .nav{
+    text-align: center;
+}
+#portfolio .container .nav a{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#portfolio .container .nav a:hover{
+    color: #FF305B;
+}
+#portfolio .container img{
+    width: 26%;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+/* stats */
+#stats .container .stat1{
+    display: inline-block;
+    margin-right: 90px;
+    width: 15%;
+}
+#stats .container{
+    text-align: center;
+    width: 100%;
+}
+#stats .container .stat1 i{
+    font-size: 40px;
+    color: #FF305B;
+}
+#stats .container .stat1 h3{
+    font-weight: 800;
+    font-size: 26px;
+    font-family: "Source Sans 3", sans-serif;
+    color: #333333;
+}
+#stats .container .stat1 h5{
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+}
+/* feedback */
+#client .head{
+    text-align: center;
+}
+#client .container .feedback {
+    background-color: #EC2402;
+}
+#client .container .img-feed{
+    float: left;
+}
+
