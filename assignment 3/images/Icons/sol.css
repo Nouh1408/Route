@@ -187,3 +187,21 @@ ul{
     margin-right: 20px;
     margin-bottom: 10px;
 }
+/* footer */
+#footer{
+    background-color: #3F3D37;
+}
+#footer h2{
+    color: white;
+}
+.item-footer{
+    float: left;
+    width: 25%;
+}
+.item-footer img{
+    width: 40px;
+    vertical-align: middle;
+}
+.item-footer li{
+    color: #686868;
+}
