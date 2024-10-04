@@ -30,6 +30,9 @@ img{
 #home a{
     color: white;
 }
+#home .navbar a:hover{
+    color: #8E7754;
+}
 .logo,.nav-list{
     display: inline-block;
 }
@@ -37,15 +40,16 @@ ul{
     list-style: none;
 }
 .logo img{
-    width: 120px;
+    width: 160px;
 }
 .nav-list li{
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .nav-list{
     margin-left: 100px;
     padding-left: 100px;
+    float: right;
 }
 .padding-section{
     padding: 20px 0;
@@ -67,23 +71,36 @@ ul{
     font-weight: 400;
     margin: 10px 0;
 }
-.btn1{
+#home .home-caption .home-btn .btn1{
     background-color: #8E7754;
-    color: white;
     padding: 10px;
     border-color: transparent;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+#home .home-caption .home-btn .btn1:hover{
+    background-color: white;
+     color: black; 
 }
 .home-btn{
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 #home p{
     line-height: 25x;
+    margin-bottom: 20px;
 }
-.btn2{
+#home .home-caption .home-btn .btn2{
     padding: 10px;
     color: white;
     background-color: transparent;
-    border: 2px solid white;
+    border: 1px solid;
+    transition: 0.3s;
+}
+#home .home-caption .home-btn .btn2:hover{
+    color: black;
+    background-color: white;
 }
 .outer{
     width: 20px;
@@ -193,10 +210,13 @@ ul{
 }
 #footer h2{
     color: white;
+    margin-bottom: 20px;
 }
 .item-footer{
     float: left;
-    width: 25%;
+    width: 24%;
+    padding: 5px;
+    
 }
 .item-footer img{
     width: 40px;
@@ -204,4 +224,11 @@ ul{
 }
 .item-footer li{
     color: #686868;
+}
+.indent{
+    display: inline-block;
+    padding-left: 30px;
+}
+.item-footer li:not(:last-child){
+    border-bottom: 1px solid #494741;
 }
