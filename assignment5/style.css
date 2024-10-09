@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.navbar .logo a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #212529;
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar .logo a::after {
+    content: "•";
+    font-size: 20px; 
+    color: #CE1212; 
+}
+.navbar{
+    display: flex;
+    height: 100px;
+    position: sticky;
+    box-shadow: 0 2px 4px 4px rgba(0,0,0,.5);
+}
+.navbar .logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .links{
+    width: 60%;
+}
+.navbar .links ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.navbar .links li{
+    margin-right: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: red;
+}
+.navbar .links a{
+    color: grey;
+    transition: 0.3s;
+    cursor: pointer; 
+}
+.navbar .links a:hover{
+    color: black;
+}
+.navbar .icon{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: black;
+}
+/* start home */
+.home{
+    display: flex;
+    justify-content: space-evenly;
+}
+.home .data {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .data h2{
+    font-size: 65px;
+    font-weight: 700;
+    color: #37373F;
+    font-family: "Amatic SC", sans-serif;
+    margin-left: 20px;
+}
+.home .data p{
+    color: #4F4F5A;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}
+.home .img-home{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .img-home img{
+    box-shadow: drop-shadow(4px 4px 9px #000a);
+    width: 100%;
+    margin: 35px 70px 0  0;
+}
