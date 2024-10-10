@@ -3,7 +3,7 @@
     padding: 0;
 }
 .paddingsection{
-    padding: 50px 0;
+    padding: 90px 0;
 }
 a{
     text-decoration: none;
@@ -25,7 +25,9 @@ li{
 .navbar{
     display: flex;
     height: 100px;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    background-color: white;
     box-shadow: 0 2px 4px 4px rgba(0,0,0,.5);
 }
 .navbar .logo{
