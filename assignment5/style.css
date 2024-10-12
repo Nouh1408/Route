@@ -605,18 +605,18 @@ textarea {
 .footer .container .footer-main .second-part .form-footer .btn-footer i {
     font-size: 18px;
     color: white;
-    background-color: var(--red);
-    padding: 10px 0 10px 10px;
+    background-color:red;
+    /* padding: 10px 0 10px 10px; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .footer .container .footer-main .second-part .form-footer .btn-footer button {
-    background-color: var(--red);
+    background-color: red;
     color: white;
     border: 1px solid transparent;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     font-size: 16px;
 }
 
@@ -656,7 +656,7 @@ textarea {
 }
 
 .footer .container .footer-main .second-part .links-footer ul li a:hover {
-    color: var(--red);
+    color: red;
 }
 
 .footer .container .footer-main .third-part {
@@ -689,7 +689,7 @@ textarea {
 .footer .container .footer-main .third-part .end-footer .footer-item i {
     padding: 5px;
     font-size: 24px;
-    color: var(--red);
+    color: red;
 }
 
 .footer .container .footer-main .third-part .end-footer .footer-item p {
