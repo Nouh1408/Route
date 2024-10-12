@@ -1,65 +1,83 @@
-*{
+.container {
+    width: 80;
+    margin: auto;
+}
+
+* {
     margin: 0;
     padding: 0;
 }
-.paddingsection{
+
+.paddingsection {
     padding: 90px 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-li{
+
+li {
     list-style-type: none;
 }
-.navbar .logo a{
+
+.navbar .logo a {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #212529;
     font-size: 30px;
     font-weight: 700;
 }
+
 .navbar .logo a::after {
     content: "•";
-    font-size: 20px; 
-    color: #CE1212; 
+    font-size: 20px;
+    color: #CE1212;
 }
-.navbar{
+
+.navbar {
     display: flex;
     height: 100px;
     position: fixed;
     width: 100%;
     background-color: white;
-    box-shadow: 0 2px 4px 4px rgba(0,0,0,.5);
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, .5);
 }
-.navbar .logo{
+
+.navbar .logo {
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.navbar .links{
+
+.navbar .links {
     width: 60%;
 }
-.navbar .links ul{
+
+.navbar .links ul {
     display: flex;
     justify-content: center;
     margin-top: 40px;
 }
-.navbar .links li{
+
+.navbar .links li {
     margin-right: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 17px;
     font-weight: 600;
     color: red;
 }
-.navbar .links a{
+
+.navbar .links a {
     color: grey;
     transition: 0.3s;
-    cursor: pointer; 
+    cursor: pointer;
 }
-.navbar .links a:hover{
+
+.navbar .links a:hover {
     color: black;
 }
-.navbar .icon{
+
+.navbar .icon {
     display: flex;
     width: 10%;
     justify-content: center;
@@ -67,11 +85,13 @@ li{
     font-size: 25px;
     color: black;
 }
+
 /* start home */
-.home{
+.home {
     display: flex;
     justify-content: space-evenly;
 }
+
 .home .data {
     width: 65%;
     display: flex;
@@ -79,32 +99,37 @@ li{
     justify-content: center;
     margin-left: 50px;
 }
-.home .data h2{
+
+.home .data h2 {
     font-size: 65px;
     font-weight: 700;
     color: #37373F;
     font-family: "Amatic SC", sans-serif;
     margin-left: 20px;
 }
-.home .data p{
+
+.home .data p {
     color: #4F4F5A;
     font-weight: 400;
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 20px;
 }
-.home .img-home{
+
+.home .img-home {
     width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.home .img-home img{
+
+.home .img-home img {
     box-shadow: drop-shadow(4px 4px 9px #000a);
     width: 100%;
-    margin: 35px 200px 0  0;
+    margin: 35px 200px 0 0;
 }
-.home .data .buttons{
+
+.home .data .buttons {
     display: flex;
     gap: 20px;
     margin-top: 30px;
@@ -112,7 +137,8 @@ li{
     width: 30%;
     justify-content: space-between;
 }
-.home .data .buttons .btn1{
+
+.home .data .buttons .btn1 {
     width: 140px;
     border-radius: 100vh;
     background-color: #CE1212;
@@ -125,7 +151,8 @@ li{
     cursor: pointer;
     transition: 0.4s;
 }
-.home .data .buttons .btn2{
+
+.home .data .buttons .btn2 {
     width: 140px;
     border-radius: 100vh;
     color: black;
@@ -136,106 +163,126 @@ li{
     cursor: pointer;
     transition: 0.4s;
 }
-.home .data .buttons .btn1:hover{
+
+.home .data .buttons .btn1:hover {
     background-color: #E61414;
 }
-.home .data .buttons .btn2:hover{
+
+.home .data .buttons .btn2:hover {
     color: red;
 }
-.home .data .buttons i{
+
+.home .data .buttons i {
     margin-right: 20px;
 }
+
 /* start chefs */
-.chefs .head{
+.chefs .head {
     text-align: center;
 }
-.chefs .head .chefid{
+
+.chefs .head .chefid {
     color: #7F7F90;
     font-weight: 400;
     font-size: 14px;
     font-family: "Inter", sans-serif;
 }
-.chefs .head p{
+
+.chefs .head p {
     color: #212529;
     font-family: "Amatic SC", sans-serif;
     font-size: 50px;
     font-weight: 400;
 }
-.chefs .container{
+
+.chefs .container {
     display: flex;
     justify-content: space-around;
 }
-.chefs .container .chef-image{
+
+.chefs .container .chef-image {
     width: 30%;
     display: flex;
-    gap:5px;
+    gap: 5px;
     overflow: hidden;
     text-align: center;
     flex-direction: column;
     transition: 1s;
 }
-.chefs .container .chef-image img{
+
+.chefs .container .chef-image img {
     width: 100%;
     border-radius: 5px;
 }
-.chefs .container .chef-image:hover{
+
+.chefs .container .chef-image:hover {
     transform: scale(1.1);
 }
-.chefs .container .chef-image h3{
+
+.chefs .container .chef-image h3 {
     color: #212529;
     font-family: "Inter", sans-serif;
     font-size: 18.72px;
     font-weight: 700;
 }
-.chefs .container .chef-image span{
+
+.chefs .container .chef-image span {
     color: #7F7F90;
     font-weight: 400;
     font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+
 }
-.chefs .container .chef-image p{
+
+.chefs .container .chef-image p {
     color: #7F7F90;
     font-weight: 400;
     font-size: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 /* start gallery */
-.gallery{
+.gallery {
     width: 100%;
     /* display: flex;
     justify-content: center;
     flex-wrap: wrap; */
 }
+
 .gallery .head {
     text-align: center;
 }
-.gallery .head h2{
+
+.gallery .head h2 {
     color: #7F7F90;
     font-weight: 400;
     font-size: 14px;
     font-family: "Inter", sans-serif;
 }
-.gallery .head p{
+
+.gallery .head p {
     color: #212529;
     font-family: "Amatic SC", sans-serif;
     font-size: 50px;
     font-weight: 400;
 }
-.gallery .head span{
+
+.gallery .head span {
     color: red;
 }
-.gallery .contaienr{
+
+.gallery .contaienr {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-}   
+}
 
 .gallery-img {
     width: 80%;
-    margin-bottom: 20px; /* Adds some space below each row */
+    margin-bottom: 20px;
+    /* Adds some space below each row */
     box-sizing: border-box;
     columns: 3;
     text-align: center;
@@ -243,10 +290,11 @@ li{
 
 .gallery .contaienr .gallery-img img {
     width: 100%;
- 
+
 }
-.gallery .contaienr .gallery-img .layout{
-    position: absolute;
+
+.gallery .contaienr .gallery-img .layout {
+
     width: 100%;
     height: 100%;
     top: 0;
@@ -261,6 +309,399 @@ li{
     transition: opacity 0.6s ease;
     cursor: pointer;
 }
-.gallery .contaienr .gallery-img .layout:hover{
+
+.gallery .contaienr .gallery-img .layout:hover {
     opacity: 1;
+}
+
+/* contact */
+#contact {
+    /* background-color: teal; */
+    margin: 100px 0;
+}
+
+#contact .details-contact {
+    /* background-color: tomato; */
+    text-align: center;
+    width: 100%;
+}
+
+#contact .details-contact h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: normal;
+    color: rgb(127, 127, 144);
+}
+
+#contact .details-contact p {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: normal;
+    color: rgb(33, 37, 41);
+    margin-bottom: 50px;
+}
+
+#contact .details-contact p span {
+    color: #CE1212;
+}
+
+#contact .container .map iframe {
+    /* background-color: blue; */
+    width: 100%;
+    height: 500px;
+}
+
+
+.way-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#contact .container .way-contact .box {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 30px 20px;
+}
+
+.icon-circle {
+    background-color: red;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#contact .container .way-contact .box i {
+    font-size: 24px;
+    color: white;
+}
+
+#contact .container .way-contact .box h3 {
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: normal;
+    color: rgb(127, 127, 144)
+}
+
+#contact .container .way-contact .box p {
+    margin: 5px 0 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+    color: rgb(127, 127, 144);
+}
+
+#contact .container .way-contact .email a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+    color: rgb(127, 127, 144);
+}
+
+
+form {
+    padding: 20px;
+}
+
+form .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.form-1 input {
+    width: 48%;
+    /* Adjusts width to ensure both inputs fit in the same row */
+    margin-right: 4%;
+    /* Adds a small margin between the inputs */
+}
+
+.form-1 input:last-child {
+    margin-right: 0;
+    /* Removes margin from the last input in the row */
+}
+
+.form-2 input,
+.form-2 textarea {
+    width: 100%;
+    /* Ensures full width for Subject and Message */
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+.submit-btn button {
+    padding: 20px 20px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    background-color: #CE1212;
+    border-radius: 20px;
+    color: white;
+}
+
+.submit-btn button:hover {
+    background-color: #ff0000;
+}
+
+#date {
+    color: black;
+}
+
+#date2 {
+    color: black;
+}
+
+/* footer */
+.footer {
+    background-image: url(./images-mealify/images/textured-metal-background.jpg);
+    height: auto;
+}
+
+
+.footer .container .footer-main {
+    display: flex;
+}
+
+.footer .container .first-part {
+
+    width: 30%;
+}
+
+.footer .container .first-part .footer-logo {
+
+    width: 15%;
+    display: flex;
+
+    align-items: center;
+
+}
+
+.footer .container .first-part .footer-logo h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: normal;
+    color: white;
+
+    padding: 20px;
+}
+
+.footer .container .footer-main .first-part .footer-logo h2::after {
+    content: ".";
+    color: #CE1212;
+}
+
+.footer .container .footer-main .first-part .footer-logo img {
+    width: 100%;
+}
+
+.footer .container .footer-main .first-part p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+    color: white;
+    width: 300px;
+}
+
+.footer .container .footer-main .first-part h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: normal;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.footer .container .footer-main .first-part i {
+    padding: 40px;
+    color: white;
+    font-size: 24px;
+
+}
+
+.footer .container .footer-main .second-part {
+
+    padding: 30px;
+    width: 40%;
+}
+
+.footer .container .footer-main .second-part .caption-footer h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: normal;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+.footer .container .footer-main .second-part .caption-footer p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+    color: white;
+    padding: 10px 0;
+}
+
+.footer .container .footer-main .second-part .form-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .container .footer-main .second-part .form-footer input {
+    padding: 10px;
+    width: 100%;
+    width: 75%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.footer .container .footer-main .second-part .form-footer .btn-footer {
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.footer .container .footer-main .second-part .form-footer .btn-footer i {
+    font-size: 18px;
+    color: white;
+    background-color: var(--red);
+    padding: 10px 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .container .footer-main .second-part .form-footer .btn-footer button {
+    background-color: var(--red);
+    color: white;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.footer .container .footer-main .second-part h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: normal;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+.footer .container .footer-main .second-part .links-footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer .container .footer-main .second-part .links-footer ul li {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.footer .container .footer-main .second-part .links-footer ul li a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: normal;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.footer .container .footer-main .second-part .links-footer ul li a:hover {
+    color: var(--red);
+}
+
+.footer .container .footer-main .third-part {
+
+    padding: 30px;
+    width: 30%;
+}
+
+.footer .container .footer-main .third-part h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: normal;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.footer .container .footer-main .third-part .end-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer .container .footer-main .third-part .end-footer .footer-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .container .footer-main .third-part .end-footer .footer-item i {
+    padding: 5px;
+    font-size: 24px;
+    color: var(--red);
+}
+
+.footer .container .footer-main .third-part .end-footer .footer-item p {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.footer .container .footer-main .third-part .end-footer .footer-item a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+    color: white;
 }
