@@ -88,6 +88,73 @@ li{
 :root :has(#home:target) .home{
     color: #FF305B;
 }
+.title::after{
+    content: '';
+    animation-name: typing;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+@keyframes typing {
+    0%{
+        content: '|';
+    }
+    5%{
+        content: 'd|';
+    }
+    10%{
+        content: 'de|';
+    }
+    15%{
+        content: 'des|';
+    }
+    20%{
+        content: 'desi|';
+    }
+    25%{
+        content: 'desig|';
+    }
+    30%{
+        content: 'design|';
+    }
+    35%{
+        content: 'designe|';
+    }
+    40%{
+        content: 'designer|';
+    }
+    45%{
+        content: '|';
+    }
+    50%{
+        content: 'd|';
+    }
+    55%{
+        content: 'de';
+    }
+    60%{
+        content: 'dev';
+    }
+    65%{
+        content: 'deve|';
+    }
+    70%{
+        content: 'devel|';
+    }
+    75%{
+        content: 'develo|';
+    }
+    80%{
+        content: 'develop|';
+    }
+    85%{
+        content: 'develope|';
+    }
+    90%{
+        content: 'developer|';
+    }
+}
 /* about css */
 .about-me{
     overflow: hidden;
