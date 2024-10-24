@@ -85,6 +85,9 @@ li{
     font-weight: 300;
     font-size: 26px;
 }
+:root :has(#home:target) .home{
+    color: #FF305B;
+}
 /* about css */
 .about-me{
     overflow: hidden;
