@@ -14,21 +14,21 @@
   <!-- background -->
   <div id="home" class="vh-100 ">
     <nav class="navbar navbar-expand-lg my-background">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">DevFolio</a>
+      <div class="container m-1">
+        <a class="navbar-brand " id="logo" href="index.html">DevFolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
+          <ul class="mr-3 navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link" href="#home">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SERVICES</a>
+              <a class="nav-link " href="#">SERVICES</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">WORK</a>
@@ -42,9 +42,20 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li class="nav-item dropdown">
+                  <a class="text-dark nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Deep Drop down
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#" class="dropdown-item">Deep Drop Down 2</a></li>
+                    <li><a class="dropdown-item" href="#">Deep Drop Down 3</a></li>
+                    <li><a class="dropdown-item" href="#">Deep Drop Down 4</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="dropdown-item">Deep Down 2</a></li>
+                <li><a class="dropdown-item" href="#">Deep Down 3</a></li>
+                <li><a class="dropdown-item" href="#">Deep Down 4</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -58,6 +69,7 @@
     </nav>
     <div class="col-xs-1 center-block text-light">
         <h1>I am Morgan Freeman</h1>
+        <p class="animation-title"></p>
     </div>
   </div>
 

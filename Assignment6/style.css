@@ -9,6 +9,12 @@
     background-size: cover;
     opacity: 0.9999;
 }
+#logo{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .home-cap h1{
     color: #FFFFFF;
     font-size: 72px;
@@ -27,10 +33,120 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
 }
 .text-light h1{
     font-weight: 600;
     font-size: 72px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #FFFFFF;
+}
+.text-light p{
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.animation-title::after{
+    content: '';
+    animation-name: typewriter;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes typewriter {
+    0%{
+        content: '|';
+    }
+    2%{
+        content: 'de|';
+    }
+    4%{
+        content: 'desi|';
+    }
+    6%{
+        content: 'design|';
+    }
+    8%{
+        content: "designer|";
+    }
+    10%{
+        content: 'de|';
+    }
+    12%{
+        content: 'design|';
+    }
+    14%{
+        content: 'desi|';
+    }
+    16%{
+        content: 'de|';
+    }
+    18%{
+        content: 'deve|';
+    }
+    20%{
+        content: 'develo|';
+    }
+    22%{
+        content: 'developer|';
+    }
+    24%{
+        content: 'develo|';
+    }
+    26%{
+        content: 'deve|';
+    }
+    28%{
+        content: 'de|';
+    }
+    30%{
+        content: '|';
+    }
+    32%{
+        content: 'fr|';
+    }
+    34%{
+        content: 'free|';
+    }
+    36%{
+        content: "freelan|";
+    }
+    40%{
+        content: 'freelancer|';
+    }
+    45%{
+        content: 'freelan|';
+    }
+    50%{
+        content: 'free|';
+    }
+    55%{
+        content: "fr|";
+    }
+    60%{
+        content: '|';
+    }
+    65%{
+        content: 'Pho|';
+    }
+    70%{
+        content: 'Photo|';
+    }
+    75%{
+        content: 'Photogr|';
+    }
+    80%{
+        content: 'Photograph|';
+    }
+    85%{
+        content: 'Photographer|';
+    }
+    90%{
+        content: '|';
+    }
+}
+.mr-3{
+    margin-right: 30px;
 }
