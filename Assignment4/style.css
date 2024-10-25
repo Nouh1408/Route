@@ -354,9 +354,7 @@ li{
 #client .head{
     text-align: center;
 }
-#client .container .feedback {
-    
-}
+
 #client .container .img-feed{
     float: left;
 }
@@ -364,9 +362,6 @@ li{
     font-size: 15px;
 }
 /* blog */
-#blog .container{
-    
-}
 #blog .container .head h2{
     text-align: center;
     font-size: 40px;
