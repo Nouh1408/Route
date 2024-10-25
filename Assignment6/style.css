@@ -4,7 +4,8 @@
    background-color: transparent;
 }
 #home{
-    background-image: url("./images/hero-bg.jpg");
+    /* background-image: url("./images/hero-bg.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("./images/hero-bg.jpg");
     background-position: center;
     background-size: cover;
     background-position: center center; 
@@ -151,3 +152,20 @@
 .mr-3{
     margin-right: 30px;
 }
+.nav-link{
+    color: white !important;
+}
+.nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: 0; /* Position the line below the text */
+    left: 0;
+    width: 0; /* Start with a width of 0 */
+    height: 2px; /* Thickness of the underline */
+    background-color: #FFFFFF;
+    transition: width 0.3s ease; /* Animation for hover */
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+/* about */
