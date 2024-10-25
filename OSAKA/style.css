@@ -1,0 +1,14 @@
+
+
+#about{
+    .first-heading{
+        font-size: 80px;
+        color: #00000042;
+        letter-spacing: 10px;
+    }
+    .second-heading{
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+
+}
