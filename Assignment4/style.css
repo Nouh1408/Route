@@ -40,6 +40,7 @@ li{
     background: rgba(0, 0, 0, 0.8) url("./Fokir_Images/header.jpeg");
     background-position:center;
     background-blend-mode: darken;
+    padding-bottom: 59.2px;
     opacity: 0.8;
 }
 #name, .nav-list{

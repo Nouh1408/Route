@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.padding{
+    padding-top: 30px;
+}
+body{
+    width: 90%;
+}
+
+.about-img{
+    float: left;
+    width: 35%;
+    border: 10px solid #555555;
+}
+.about-detail{
+    float: right;
+    width: 65%;
+}
+.img-wrap{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    overflow: hidden;
+}
+.layer{
+    position: absolute;
+    top: 120%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    transition: 0.6s;
+}
+.layer-cap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.layer-cap i{
+    color: #fff;
+    margin-right: 20px;
+}
+.img-wrap:hover .layer{
+    top: 0;
+}
