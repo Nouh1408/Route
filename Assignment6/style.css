@@ -218,3 +218,19 @@
     background-color: #0078ff;
     margin: 0 auto;
 }
+/* PR */
+.bg-pr{
+    background-image: linear-gradient(rgba(34, 104, 199, 0.6), rgba(34, 104, 199, 0.9)), url("./images/counters-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+}
+.custome .cus-icon{
+    border: solid 10px #CDE1F8;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+.custome{
+    color: #FFFFFF;
+}
+
