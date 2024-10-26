@@ -235,4 +235,38 @@
 .custome{
     color: #FFFFFF;
 }
+/* portfolio */
+.w-category {
+    color: #0078ff;
+  }
+
+  .w-date {
+    font-size: 12.8px;
+    color: #4E4E4E;
+  }
+
+  i {
+    border: solid 2px #0078ff;
+    border-radius: 50%;
+    color: #0078ff;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .icon-m {
+    margin-left: 100px;
+  }
+
+  .card {
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .card img {
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover img {
+    transform: scale(1.12);
+  }
 
