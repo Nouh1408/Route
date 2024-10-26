@@ -7,58 +7,48 @@
   <link rel="stylesheet" href="./bootstrap.min.css">
   <title>Document</title>
   <style>
-    .w-category {
-      color: #0078ff;
+    .size-pic{
+      width: 40px;
+      height: 40px;
     }
-
-    .w-date {
-      font-size: 12.8px;
-      color: #4E4E4E;
-    }
-
-    i {
-      border: solid 2px #0078ff;
-      border-radius: 50%;
-      color: #0078ff;
-      padding: 10px;
-      font-size: 20px;
-    }
-
-    .icon-m {
-      margin-left: 60px;
-    }
-
-    .card {
+    .card-body a{
+      text-decoration: none;
+      color: black;
+      transition: 0.3s;
       cursor: pointer;
-      overflow: hidden;
-      /* Ensures the image stays within the container */
     }
-
-    .card img {
-      transition: transform 0.3s ease;
-    }
-
-    .card:hover img {
-      transform: scale(1.2);
-      /* Zooms in the image within its container */
+    .card-body a:hover{
+      color: blue;
+    } 
+    .time{
+      font-size: 12px;
+      color: #4E4E4E;
+      margin-left: 20px;
     }
   </style>
 </head>
 
 <body>
-  <div class="card  w-25">
-    <img src="./images/work-1.jpg" class="card-img-top" alt="...">
+  <section id="blog" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/post-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">See more ideas about Travel</h5>
+              <p class="card-text">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+              <hr class="border-bottom border-1 border-dark w-100">
+              <img src="./images/testimonial-2.jpg" class="rounded-circle size-pic" alt="">
+              <a href="#" class="">Morgan Freeman</a>
+              <i class="fa-regular fa-clock time">10 min</i>
 
-    <div class="card-body ">
-      <div>
-        <h5 class="card-title">Lorem impsum dolor</h5>
-        <span class="w-category">Web Design</span>
-        <span class="w-date"> / 18 Sep. 2018</span>
-        <i class="fa-solid fa-plus icon-m"></i>
+            </div>
+          </div>
+        </div>
       </div>
-
     </div>
-  </div>
+  </section>
   <script src="https://kit.fontawesome.com/f668780ccb.js" crossorigin="anonymous"></script>
   <script src="./bootstrap.bundle.min.js"></script>
 </body>

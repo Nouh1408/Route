@@ -262,11 +262,38 @@
     overflow: hidden;
   }
 
-  .card img {
+  .card-ani {
     transition: transform 0.3s ease;
   }
 
-  .card:hover img {
+  .card-ani:hover {
     transform: scale(1.12);
   }
-
+  /* carasoul */
+  .bg-car{
+    background-image: linear-gradient(rgba(34, 104, 199, 0.6), rgba(34, 104, 199, 0.9)), url("./images/overlay-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px
+  }
+/* cards */
+.size-pic{
+    width: 40px;
+    height: 40px;
+  }
+  .card-body a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .card-body a:hover{
+    color: blue;
+  } 
+  .time{
+    font-size: 12px;
+    color: #4E4E4E;
+    margin-left: 5px;
+    border: none !important;
+  }
