@@ -8,6 +8,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("./images/hero-bg.jpg");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center center; 
     opacity: 0.9999;
 }
@@ -222,6 +223,7 @@
 .bg-pr{
     background-image: linear-gradient(rgba(34, 104, 199, 0.6), rgba(34, 104, 199, 0.9)), url("./images/counters-bg.jpg");
     background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
     height: 500px;
 }
