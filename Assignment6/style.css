@@ -169,3 +169,21 @@
     width: 100%;
 }
 /* about */
+
+.about-edit .title-left {
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 20px;
+}
+.title-left:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
