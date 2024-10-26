@@ -7,48 +7,39 @@
   <link rel="stylesheet" href="./bootstrap.min.css">
   <title>Document</title>
   <style>
-    .size-pic{
-      width: 40px;
-      height: 40px;
+    .form-butt{
+      border-radius: 20px;
+      font-size: 20px;
     }
-    .card-body a{
-      text-decoration: none;
-      color: black;
-      transition: 0.3s;
-      cursor: pointer;
-    }
-    .card-body a:hover{
-      color: blue;
-    } 
-    .time{
-      font-size: 12px;
-      color: #4E4E4E;
-      margin-left: 20px;
+    .form-cent{
+      text-align: center;
     }
   </style>
 </head>
 
 <body>
-  <section id="blog" class="py-5">
+  <div>
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./images/post-1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">See more ideas about Travel</h5>
-              <p class="card-text">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
-              <hr class="border-bottom border-1 border-dark w-100">
-              <img src="./images/testimonial-2.jpg" class="rounded-circle size-pic" alt="">
-              <a href="#" class="">Morgan Freeman</a>
-              <i class="fa-regular fa-clock time">10 min</i>
-
-            </div>
+        <div class=" w-50">
+          <form>
+            <h2 class="title-left">Send Message Us</h2>
+          <input type="text" placeholder="Your name" class="form-control my-3">
+          <input type="email" placeholder="your email" class="form-control my-3">
+          <input type="text" placeholder="your subject" class="form-control my-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+          <div class="form-cent">
+            <button type="button" class="btn btn-primary my-5 form-butt" >Send Message</button>
           </div>
+          </form>
+        
+        </div>
+        <div class="col-md-6">
+          
         </div>
       </div>
     </div>
-  </section>
+  </div>
   <script src="https://kit.fontawesome.com/f668780ccb.js" crossorigin="anonymous"></script>
   <script src="./bootstrap.bundle.min.js"></script>
 </body>
