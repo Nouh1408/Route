@@ -58,9 +58,6 @@
     animation-delay: 0s;
     animation-iteration-count: infinite;
 }
-.fixed-top:hover{
-    background-color: #1E1E1E;
-}
 @keyframes typewriter {
     0%{
         content: '|';
@@ -245,16 +242,15 @@
     color: #4E4E4E;
   }
 
-  i {
+
+
+  .icon-m {
+    margin-left: 100px;
     border: solid 2px #0078ff;
     border-radius: 50%;
     color: #0078ff;
     padding: 10px;
     font-size: 20px;
-  }
-
-  .icon-m {
-    margin-left: 100px;
   }
 
   .card {
@@ -297,3 +293,41 @@
     margin-left: 5px;
     border: none !important;
   }
+/* form */
+.bg-form{
+    background-image: linear-gradient(rgba(34, 104, 199, 0.6), rgba(34, 104, 199, 0.9)), url("./images/overlay-bg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.form-butt{
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  .form-cent{
+    text-align: center;
+  }
+  li{
+    list-style-type: none;
+  }
+  .form-icon{
+    color: #0078FF;
+    border: solid transparent;
+  }
+  .icon-form{
+    border: 3px solid #0078FF;
+  }
+  .title-lef{
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .title-lef:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
