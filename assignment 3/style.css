@@ -1,129 +1,30 @@
-.home  {
-    background-image: url("./images/drew-coffman-1872.jpg");
-    background-size: 100% 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-.home .caption{
-    width: 40%;
-    margin: 170px auto 0;
-    text-align: center;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html{
-    font-family: sans-serif;
-}
-.home .caption h1{
-    font-family: "Alegreya ";
-    color: rgb(255, 255, 255);
-    font-size: 76px;
-    font-weight: 400;
-    margin-bottom: 18px;
-}
-.home .caption p{
-    color: rgb(255, 255, 255);
-    font-family: "Alegreya sans";
-    font-weight: 400;
-    font-size: 17px;
-    margin: 10px 0 20px 0;
-}
-.home .caption a{
-    
-    font-size: 1rem;
-    display: inline-block;
-    /* width: 81.823px;
-    height: 18.333; */
-    text-decoration: none;
-    padding: 17px 10px;
-    text-align: center;
-    border: 2px solid white;
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 12px;
-    transition: 0.3s;
-    
-}
-.home .caption .btn1{
-    background-color: #8e7754;
-    border: none;
-}
-.home .caption a:hover{
-    background-color: #ffff;
-    color: black;
-}
-.nav-links a{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: "Alegreya ";
-    font-weight: 500;
-    list-style: none;
-    transition: 0.3s;
-}
-.nav-links li{
-    display: inline-block;
-    margin-right: 20px;
-}
-nav {
-    right: 0;
-    position: fixed;
-    top: 0;
-    margin-right: 30px;
-    margin-top: 50px;
+:root {
+    --font-main: "Alegreya Sans";
+    --color-main: #AC9567;
 }
 
-.nav-links a:hover{
-    color: #8e7754;
-    border-top: solid 10px #8e7754;
-}
-.logo img{
+/* navnar */
+.icon-bakery{
     width: 200px;
-    margin-left: 20px;
-    margin-top: 10px;
-    position: fixed;
 }
-.logo{
-    height: 80px;
-}
-.parent .child img{
-    width: 100%;
-    margin-left: 100px;
-}
+.nav-item .nav-link {
+    transition: 0.3s;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: var(--font-main);
 
-.parent .child img{
-    text-align: center;
-    float: left;
-    width: 40%;
-    overflow: hidden;
 }
-.parent .child .text {
-    float: right; 
-    width: 40%;
-    font-family: "Alegreya ";
+.nav-item .nav-link:hover{
+    color: var(--color-main);
 }
-/* .icon-list li{
-    width: 100px;
-    list-style-type: none;
-    padding: 0;
+.bg-img{
+    background-image: url("./images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
 }
-.icon-list img{
-    width: 24px; 
-    height: 24px;
-    margin-right: 10px;
-}
-.icon-list{
-    list-style-type: none;
-} */
-
-.icon-list img{
-    width: 10px;
-    height: 30px;
-    display: inline;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.navbar{
+    background-color: aqua;
 }
