@@ -1,3 +1,24 @@
-i{
-    font-size: 40px;
+.parent{
+    border: 3px solid #09c;
+    height: 500px;
+    display: grid;
+    grid-template-areas: 
+    "item1 item1 item1"
+    "item2 . item3 "
+    "item4 item4 item4"
+    ;
+
+    .child1{
+        grid-area: item1;
+    }
+    .child2{
+        grid-area: item2;
+    }
+    .child3{
+        grid-area: item3;
+    }
+    .child4{
+        grid-area: item4;
+    }
+   
 }
