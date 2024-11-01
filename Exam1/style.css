@@ -173,3 +173,12 @@
     font-family: var(--main-font);
     color: #343434;
 }
+.port-a a{
+    text-decoration: none;
+    color: #343434;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.port-a a:hover{
+    border-bottom: solid 3px #343434;
+}
