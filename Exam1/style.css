@@ -1,0 +1,40 @@
+:root {
+    --main-font: "Poppins", sans-serif;
+}
+.font-main{
+    font-family: var(--main-font);
+}
+.my-bg{
+    background-color: transparent;
+}
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/imgs/bg.jpg");
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.logo{
+    font-size: 25px;
+    color: #fff !important;
+    font-weight: 600;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    color: #fff;
+    font-family: var(--main-font);
+    margin-left: 32px;
+}
+.head{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+.ch-1{
+    font-size: 60px; 
+    font-family: "Montserrat", sans-serif;
+}
+.bord{
+    border: 1px solid #070D10;
+    background-color: #070D10;
+    border-radius: 50%;
+    padding: 10px;
+}
