@@ -1,3 +1,4 @@
+
 :root {
     --main-font: "Poppins", sans-serif;
 }
@@ -37,4 +38,84 @@
     background-color: #070D10;
     border-radius: 50%;
     padding: 10px;
+}
+/* about */
+.bgc-prog{
+    background-color: #1C1C1C;
+}
+.progress .progress-bar .prog-font{
+    font-family: var(--main-font);
+    font-size: 14px;
+    margin-left: 5px;
+}
+.click .btn-1{
+    background-color: #1C1C1C;
+    border: 1px solid #1C1C1C;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+.click .btn-1:hover{
+    color: black;
+    background-color: transparent;
+}
+.click .btn-2{
+    border: 1px solid #1C1C1C;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+.click .btn-2:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+.abo-st{
+    color: #343434;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+.abo-st-2{
+    color: #999999;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: var(--main-font);
+}
+.abo-st-3{
+    color: #748182;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+/* services */
+.ser-cir{
+    border-radius: 50%;
+    padding: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+.ser-cir:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+.ser-tit{
+    color: #343434;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+.ser-con{
+    color: #748182;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 400;    
+}
+.heads{
+    color: #343434;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
 }
