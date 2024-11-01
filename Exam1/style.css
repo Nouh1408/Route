@@ -195,3 +195,43 @@
     color: #999999;
     font-size: 18px;
 }
+.carousel-indicators .custom-indicator {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(0, 0, 0, 0.6); /* Darkened color */
+    border: none;
+    margin: 5px; /* Adds space between dots */
+    transition: background-color 0.3s;
+}
+
+.carousel-indicators .custom-indicator.active {
+    background-color: black; /* Darker shade for the active dot */
+}
+
+.carousel-indicators {
+    background-color: transparent; /* No background for the container */
+}
+/* numbers */
+#numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.num-icons{
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #343434;
+}
+.num-num{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    color: #343434;
+}
+.num-p{
+    color: #748182;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 15px;
+}
