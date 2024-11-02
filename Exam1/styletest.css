@@ -1,0 +1,306 @@
+
+:root {
+    --main-font: "Poppins", sans-serif;
+}
+.font-main{
+    font-family: var(--main-font);
+}
+.my-bg{
+    background-color: transparent;
+}
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/imgs/bg.jpg");
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.3s ease-in-out;
+}
+.logo{
+    font-size: 25px;
+    color: #fff !important;
+    font-weight: 600;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    color: #fff;
+    font-family: var(--main-font);
+    margin-left: 32px;
+}
+.head{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+.ch-1{
+    font-size: 60px; 
+    font-family: "Montserrat", sans-serif;
+}
+.bord{
+    border: 1px solid #070D10;
+    background-color: #070D10;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* about */
+.bgc-prog{
+    background-color: #1C1C1C;
+}
+.progress .progress-bar .prog-font{
+    font-family: var(--main-font);
+    font-size: 14px;
+    margin-left: 5px;
+}
+.click .btn-1{
+    background-color: #1C1C1C;
+    border: 1px solid #1C1C1C;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+.click .btn-1:hover{
+    color: black;
+    background-color: transparent;
+}
+.click .btn-2{
+    border: 1px solid #1C1C1C;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+.click .btn-2:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+.abo-st{
+    color: #343434;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+.abo-st-2{
+    color: #999999;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: var(--main-font);
+}
+.abo-st-3{
+    color: #748182;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+/* services */
+.ser-cir{
+    border-radius: 50%;
+    padding: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+.ser-cir:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+.ser-tit{
+    color: #343434;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+.ser-con{
+    color: #748182;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 400;    
+}
+.heads{
+    color: #343434;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+/* portfolio */
+.portfolio-item {
+    position: relative;
+}
+
+.portfolio-item img {
+    display: block;
+    width: 100%;
+}
+
+.portfolio-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.portfolio-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    color: #333; /* Dark text color */
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+.porto-icon{
+    color: white;
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.porto-icon:hover{
+    color: black;
+    background-color: white;
+}
+.porto-head{
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: var(--main-font);
+    color: #343434;
+}
+.port-a a{
+    text-decoration: none;
+    color: #343434;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.port-a a:hover{
+    border-bottom: solid 3px #343434;
+}
+/* carousel */
+.car-name{
+    color: #333;
+    font-size: 20px;
+}
+.car-typ{
+    color: #748182;
+    font-size: 15px;
+}
+.car-lorem{
+    color: #999999;
+    font-size: 18px;
+}
+.carousel-indicators .custom-indicator {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(0, 0, 0, 0.6); /* Darkened color */
+    border: none;
+    margin: 5px; /* Adds space between dots */
+    transition: background-color 0.3s;
+}
+
+.carousel-indicators .custom-indicator.active {
+    background-color: black; /* Darker shade for the active dot */
+}
+
+.carousel-indicators {
+    background-color: transparent; /* No background for the container */
+}
+/* numbers */
+#numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.num-icons{
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #343434;
+}
+.num-num{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    color: #343434;
+}
+.num-p{
+    color: #748182;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 15px;
+}
+/* team */
+
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: rotateY(0deg); 
+    transition: opacity 0.3s ease, transform 0.6s ease; 
+    backface-visibility: hidden; 
+}
+
+
+.over-content {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.image-container:hover .over {
+    opacity: 1;
+    transform: rotateY(360deg);
+}
+
+.image-container:hover .card-img-top {
+    transform: scale(1.1); 
+}
+.team-bg{
+    background-color: #5B5B5B;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.team-icon{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.team-icon:hover{
+    color: black;
+    background-color: white;
+}
