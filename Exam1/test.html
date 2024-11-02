@@ -17,81 +17,54 @@
         href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./imgs/imgs/favicon.ico">
-    <link rel="stylesheet" href="styletest.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniels</title>
 </head>
 
 <body>
-    <div id="team">
-        <div class="container">
-            <div class="row text-center mb-5">
-                <div class="col-12 heads">Our Team.</div>
-            </div>
+    <div id="form" class="pt-5">
+        <div class="container w-75">
             <div class="row">
-                <div class="col-4">
-                    <div class="card " style="width: 18rem;">
-                        <div class="image-container">
-                            <img src="./imgs/imgs/1.jpg" class="card-img-top" alt="...">
-                            <div class="over">
-                                <div class=" fs-4 ">
-                                    <i class="fa-brands fa-facebook-f team-icon"></i>
-                                <i class="fa-brands fa-twitter team-icon"></i>
-                                <i class="fa-brands fa-pinterest team-icon"></i>
-                                <i class="fa-brands fa-linkedin team-icon"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body text-center team-bg d-flex flex-column">
-                            <h4>John Doe</h4>
-                            <h5><strong>Front-End Developer</strong></h5>
-                        </div>
-                    </div>
-                    
+                <div class="col-12 text-center mb-5">
+                    <h2 class="heads">Contact Us.</h2>
                 </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <div class="image-container">
-                            <img src="./imgs/imgs/2.jpg" class="card-img-top" alt="...">
-                            <div class="over">
-                                <div class=" fs-4 ">
-                                    <i class="fa-brands fa-facebook-f team-icon"></i>
-                                <i class="fa-brands fa-twitter team-icon"></i>
-                                <i class="fa-brands fa-pinterest team-icon"></i>
-                                <i class="fa-brands fa-linkedin team-icon"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body text-center team-bg d-flex flex-column">
-                            <h4>Dave Wood</h4>
-                            <h5><strong>Back-End Developerr</strong></h5>
-                        </div>
-                    </div>
-                    
+                <div class="col-4 bg- text-center mt-5">
+                    <i class="fa-solid fa-location-arrow form-icon"></i>
+                    <h2 class="form-h">Address</h2>
+                    <p class="form-p">6834 Hollywood Blvd - Los Angeles CA</p>
                 </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <div class="image-container">
-                            <img src="./imgs/imgs/1.jpg" class="card-img-top" alt="...">
-                            <div class="over">
-                                <div class=" fs-4 ">
-                                    <i class="fa-brands fa-facebook-f team-icon"></i>
-                                <i class="fa-brands fa-twitter team-icon"></i>
-                                <i class="fa-brands fa-pinterest team-icon"></i>
-                                <i class="fa-brands fa-linkedin team-icon"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body text-center team-bg d-flex flex-column">
-                            <h4>Claire Chedd</h4>
-                            <h5><strong>Back-End Developer</strong></h5>
-                        </div>
-                    </div>
-                    
+                <div class="col-4 bg- text-center mt-5">
+                    <i class="fa-solid fa-envelope form-icon"></i>
+                    <h2 class="form-h">Email</h2>
+                    <p class="form-p">Support@website.com</p>
+                </div>
+                <div class="col-4 bg- text-center mt-5">
+                    <i class="fa-solid fa-phone form-icon"></i>
+                    <h2 class="form-h">Phone</h2>
+                    <p class="form-p">+20 010 2517 8918</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6" >
+                    <input type="text" placeholder="Name" class="form-control inp-chg" id="name" aria-describedby="emailHelp">
+                </div>
+                <div class="col-6 " >
+                    <input type="email" placeholder="Email" class="form-control inp-chg" id="email" aria-describedby="emailHelp">
+                </div>
+                <div class="col-12 mt-5">
+                    <textarea class="form-control" placeholder="Message" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea"></label>
+                    <input class="btn btn-sub" type="submit" value="Submit">
                 </div>
             </div>
         </div>
     </div>
+    <footer>
+        <div class="container-fluid mt-5 text-center foot">
+            <h6>Copy Right 2018 © By Daniels All Rights Reserved</h6>
+        </div>
+    </footer>
     <script src="bootstrap.bundle.min.js"></script>
 </body>
 
