@@ -17,85 +17,367 @@
         href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./imgs/imgs/favicon.ico">
-    <link rel="stylesheet" href="styletest.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniels</title>
 </head>
 
 <body>
+    <div id="home" class="vh-100">
+        <nav class="navbar navbar-expand-lg fixed-top bg-cust" id="navbar">
+            <div class="container">
+                <a class="navbar-brand font-main logo" href="./index.html">Daniels</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="d-flex justify-content-center align-items-center vh-100 flex-column text-light">
+            <h5 class="head">Hello</h5>
+            <span class=" ch-1">I Am <span id="type"></span></span>
+            <div class="social  fs-4 mt-5 text-center w-25 text-light">
+                <i class="fa-brands fa-facebook-f me-2 rounded-circle bord"></i>
+                <i class="fa-brands fa-twitter me-2 rounded-circle bord"></i>
+                <i class="fa-brands fa-linkedin-in me-2 rounded-circle bord"></i>
+                <i class="fa-brands fa-behance me-2 rounded-circle bord"></i>
+                <i class="fa-brands fa-youtube me-2 rounded-circle bord"></i>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about" class="pt-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 ">
+                    <img src="./imgs/imgs/hero.jpg" class="w-100" alt="about-pic">
+                </div>
+                <div class="col-7 ">
+                    <h3 class="abo-st">About Me.</h3>
+                    <span class="abo-st-2 ">UI / UX Designer & Developer</span>
+                    <p class="abo-st-3">I am <strong>Jerry Daniels</strong> Lorem Ipsum is simply dummy text of the
+                        printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has
+                        survived not only five centuries, but also the leap into electronic but also the leap into
+                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                        the release of Letraset sheets containing</p>
+                    <div class="row  mb-5  h-25">
+                        <div class="col-12">
+                            <div class="progress" style="height: 25px;" role="progressbar"
+                                aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+                                aria-valuemax="100">
+                                <div class="progress-bar  d-flex justify-content-between flex-row bgc-prog"
+                                    style="width: 95%">
+                                    <span class="prog-font">Web Design</span>
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="progress" style="height: 25px;" role="progressbar"
+                                aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+                                aria-valuemax="100">
+                                <div class="progress-bar  d-flex justify-content-between flex-row bgc-prog"
+                                    style="width: 80%">
+                                    <span class="prog-font">Branding</span>
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="progress" style="height: 25px;" role="progressbar"
+                                aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+                                aria-valuemax="100">
+                                <div class="progress-bar  d-flex justify-content-between flex-row bgc-prog"
+                                    style="width: 90%">
+                                    <span class="prog-font">Development</span>
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="click">
+                        <a href="./index.html" class="btn btn-1 btn-lg">Download CV</a>
+                        <a href="#contact" class="btn btn-2 btn-lg">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services" class="pt-5 mt-5">
+        <div class="container">
+            <div class="col-12 text-center mt-5 mb-5">
+                <h2 class="heads">Services.</h2>
+            </div>
+            <div class="row">
+                <div class="col-4 text-center">
+                    <i class="fa-solid fa-laptop fs-3 ser-cir"></i>
+                    <h6 class="ser-tit">Web Design</h6>
+                    <p class="ser-con">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                        standard dummy text ever</p>
+                </div>
+                <div class="col-4 text-center">
+                    <i class="fa-solid fa-bullhorn fs-3 ser-cir"></i>
+                    <h6 class="ser-tit">Branding</h6>
+                    <p class="ser-con">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                        standard dummy text ever</p>
+                </div>
+                <div class="col-4 text-center">
+                    <i class="fa-solid fa-umbrella fs-3 ser-cir"></i>
+                    <h6 class="ser-tit">Development</h6>
+                    <p class="ser-con">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                        standard dummy text ever</p>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-4 text-center">
+                        <i class="fa-solid fa-gem fs-3 ser-cir"></i>
+                        <h6 class="ser-tit">Creative Design</h6>
+                        <p class="ser-con">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                            standard dummy text ever</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <i class="fa-solid fa-tv fs-3 ser-cir"></i>
+                        <h6 class="ser-tit">Fully Responsive</h6>
+                        <p class="ser-con">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                            standard dummy text ever</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <i class="fa-solid fa-camera fs-3 ser-cir"></i>
+                        <h6 class="ser-tit">Retina Ready</h6>
+                        <p class="ser-con">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                            standard dummy text ever</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portofolio" class="pt-5">
+        <div class="container">
+            <div class="col-12 head text-center">
+                <h2 class="heads">Portofolio.</h2>
+                <div class="mt-3 mb-3 d-flex justify-content-center">
+                    <div class=" port-a  fs-5 d-flex w-25 justify-content-between ">
+                        <a href="">All</a>
+                        <a href="">Brands</a>
+                        <a href="">Design</a>
+                        <a href="">Graphic</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-4 portfolio-item">
+                    <div class="overlay d-flex flex-column">
+                        <h6 class="porto-head">Web Design</h6>
+                        <div class=" w-25 text-center">
+                            <i class="fa fa-chain-broken porto-icon"></i>
+                            <i class="fa-solid fa-magnifying-glass-plus porto-icon"></i>
+                        </div>
+                    </div>
+                    <img src="./imgs/imgs/portfolio/1.jpg" class="w-100" alt="portfolio-1">
+                </div>
+                <div class="col-4 portfolio-item">
+                    <div class="overlay d-flex flex-column">
+                        <h6 class="porto-head">Web Design</h6>
+                        <div class=" w-25 text-center">
+                            <i class="fa fa-chain-broken porto-icon"></i>
+                            <i class="fa-solid fa-magnifying-glass-plus porto-icon"></i>
+                        </div>
+                    </div>
+                    <img src="./imgs/imgs/portfolio/2.jpg" class="w-100" alt="portfolio-1">
+                </div>
+                <div class="col-4 portfolio-item">
+                    <div class="overlay d-flex flex-column">
+                        <h6 class="porto-head">Web Design</h6>
+                        <div class=" w-25 text-center">
+                            <i class="fa fa-chain-broken porto-icon"></i>
+                            <i class="fa-solid fa-magnifying-glass-plus porto-icon"></i>
+                        </div>
+                    </div>
+                    <img src="./imgs/imgs/portfolio/3.jpg" class="w-100" alt="portfolio-1">
+                </div>
+                <div class="row mt-5">
+                    <div class="col-4 portfolio-item">
+                        <div class="overlay d-flex flex-column">
+                            <h6 class="porto-head">Web Design</h6>
+                            <div class=" w-25 text-center">
+                                <i class="fa fa-chain-broken porto-icon"></i>
+                                <i class="fa-solid fa-magnifying-glass-plus porto-icon"></i>
+                            </div>
+                        </div>
+                        <img src="./imgs/imgs/portfolio/4.jpg" class="w-100" alt="portfolio-1">
+                    </div>
+                    <div class="col-4 portfolio-item">
+                        <div class="overlay d-flex flex-column">
+                            <h6 class="porto-head">Web Design</h6>
+                            <div class=" w-25 text-center">
+                                <i class="fa fa-chain-broken porto-icon"></i>
+                                <i class="fa-solid fa-magnifying-glass-plus porto-icon"></i>
+                            </div>
+                        </div>
+                        <img src="./imgs/imgs/portfolio/5.jpg" class="w-100" alt="portfolio-1">
+                    </div>
+                    <div class="col-4 portfolio-item">
+                        <div class="overlay d-flex flex-column">
+                            <h6 class="porto-head">Web Design</h6>
+                            <div class=" w-25 text-center">
+                                <i class="fa fa-chain-broken porto-icon"></i>
+                                <i class="fa-solid fa-magnifying-glass-plus porto-icon"></i>
+                            </div>
+                        </div>
+                        <img src="./imgs/imgs/portfolio/6.jpg" class="w-100" alt="portfolio-1">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- testimonial -->
     <div id="testimonial" class="pt-5">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
                     <h2 class="head">Testimonial.</h2>
                 </div>
+    
+                
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        
-                        <div class="carousel-indicators mt-5 dots">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
+    
                     
-                        
-                        <div class="carousel-inner text-center py-5 d-flex flex-column justify-content-between  bg-warning  mt-5 test-h">
-                            <div class="carousel-item active">
-                                <div>
+                    <div class="carousel-indicators ">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle custom-indicator" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="rounded-circle custom-indicator" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="rounded-circle custom-indicator" aria-label="Slide 3"></button>
+                    </div>
+    
+                    
+                    <div class="carousel-inner text-center py-5 d-flex flex-column justify-content-between mt-5 test-h">
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center">
+                                <div class="w-75">
                                     <img src="./imgs/imgs/1_New1.jpg" width="100" height="100" class="rounded-circle" alt="feedback1">
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis mollitia vel fugiat, ipsum voluptates saepe?</p>
-                                    <h2 style="color: black;">Alex Smith</h2>
-                                    <h3>Envato Customer</h3>
+                                    <p class="car-lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis vel delectus ipsam unde rerum quasi accusamus earum consequatur repudiandae aut labore enim reprehenderit architecto porro molestias </p>
+                                    <h2 class="car-name">Alex Smith</h2>
+                                    <h3 class="car-typ">Envato Customer</h3>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center">
+                                <div class="w-75">
                                     <img src="./imgs/imgs/1_New1.jpg" width="100" height="100" class="rounded-circle" alt="feedback2">
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis mollitia vel fugiat, ipsum voluptates saepe?</p>
-                                    <h2 style="color: black;">Jane Doe</h2>
-                                    <h3>Envato Customer</h3>
+                                    <p class="car-lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis vel delectus ipsam unde rerum quasi accusamus earum consequatur repudiandae aut labore enim reprehenderit architecto porro molestias </p>
+                                    <h2 class="car-name">Alex Smith</h2>
+                                    <h3 class="car-typ">Envato Customer</h3>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center">
+                                <div class="w-75 ">
                                     <img src="./imgs/imgs/1_New1.jpg" width="100" height="100" class="rounded-circle" alt="feedback3">
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis mollitia vel fugiat, ipsum voluptates saepe?</p>
-                                    <h2 style="color: black;">Jane Doe2</h2>
-                                    <h3>Envato Customer</h3>
+                                    <p class="car-lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis vel delectus ipsam unde rerum quasi accusamus earum consequatur repudiandae aut labore enim reprehenderit architecto porro molestias </p>
+                                    <h2 class="car-name">Alex Smith</h2>
+                                    <h3 class="car-typ">Envato Customer</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Optional CSS to adjust dot size (not necessary but for styling purposes) -->
-                    <style>
-                        .carousel-indicators [data-bs-target] {
-                            width: 10px;
-                            height: 10px;
-                            border-radius: 50%;
-                            background-color: #333; /* Dark color for visibility */
-                            transition: background-color 0.3s;
-                        }
-                        .carousel-indicators .active {
-                            background-color: #555; /* Slightly lighter when active */
-                        }
-                    </style>
-                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- numbers -->
+     <div id="numbers" class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 text-center">
+                    <div class="d-flex flex-column justify-content-around">
+                    <i class="fa-solid fa-users num-icons"></i>
+                    <p class="num-num">850</p>
+                    <p class="num-p">Happy Customers</p>
+                    </div>
+                </div>
+                <div class="col-3 text-center">
+                    <div class="d-flex flex-column justify-content-around">
+                    <i class="fa-solid fa-thumbs-up num-icons"></i>
+                    <p class="num-num">850</p>
+                    <p class="num-p">Happy Customers</p>
+                    </div>
+                </div>
+                <div class="col-3 text-center">
+                    <div class="d-flex flex-column justify-content-around">
+                    <i class="fa-solid fa-bullhorn num-icons"></i>
+                    <p class="num-num">850</p>
+                    <p class="num-p">Happy Customers</p>
+                    </div>
+                </div>
+                <div class="col-3 text-center">
+                    <div class="d-flex flex-column justify-content-around">
+                    <i class="fa-solid fa-cloud-download num-icons"></i>
+                    <p class="num-num">850</p>
+                    <p class="num-p">Happy Customers</p>
+                    </div>
+                </div>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#type', {
-            strings: ['Designer', 'Larry Daniels', 'Developer'],
-            typeSpeed: 50,
-            loop: true
+            </div>
+        </div>
+     </div>
+    
+                    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                    <script>
+                        var typed = new Typed('#type', {
+                            strings: ['Designer', 'Larry Daniels', 'Developer'],
+                            typeSpeed: 50,
+                            loop: true
+                        });
+                        document.addEventListener("DOMContentLoaded", function () {
+        const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: "#navbar",
+            offset: 50
         });
-    </script>
-    <script src="bootstrap.bundle.min.js"></script>
+    });
+    document.addEventListener("DOMContentLoaded", function() {
+        const navbar = document.getElementById("navbar");
+
+        window.addEventListener("scroll", function() {
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    });
+                    </script>
+                    <script src="bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

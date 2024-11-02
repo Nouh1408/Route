@@ -24,35 +24,40 @@
 
 <body>
     <div id="home" class="vh-100">
-        <nav class="navbar mt-4 navbar-expand-lg my-bg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top bg-cust" id="navbar">
             <div class="container">
                 <a class="navbar-brand font-main logo" href="./index.html">Daniels</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Services</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Works</a>
+                            <a class="nav-link" href="#portofolio">Works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Clents</a>
+                            <a class="nav-link" href="#testimonial">Clients</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Team</a>
+                            <a class="nav-link" href="#team">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
+                    </ul>
                 </div>
             </div>
         </nav>
+        
         <div class="d-flex justify-content-center align-items-center vh-100 flex-column text-light">
             <h5 class="head">Hello</h5>
             <span class=" ch-1">I Am <span id="type"></span></span>
@@ -354,6 +359,23 @@
                             typeSpeed: 50,
                             loop: true
                         });
+                        document.addEventListener("DOMContentLoaded", function () {
+        const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: "#navbar",
+            offset: 50
+        });
+    });
+    document.addEventListener("DOMContentLoaded", function() {
+        const navbar = document.getElementById("navbar");
+
+        window.addEventListener("scroll", function() {
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    });
                     </script>
                     <script src="bootstrap.bundle.min.js"></script>
 </body>

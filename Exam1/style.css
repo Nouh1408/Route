@@ -13,6 +13,10 @@
     background-position: 0px 0px;
     background-size: cover;
 }
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.3s ease-in-out;
+}
 .logo{
     font-size: 25px;
     color: #fff !important;
