@@ -24,3 +24,12 @@ if(n1>n2){
 } else{
     alert(n2)
 } */
+
+//q4
+/* var inp = prompt("enter number")
+Number(inp)
+if(inp>0){
+    alert("Positive")
+}else{
+    alert("Negative")
+} */
