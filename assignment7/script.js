@@ -37,8 +37,20 @@ if(inp>0){
 var x = prompt("enter first number")
 var y = prompt("enter second number")
 var z = prompt("enter third number")
-if(x>y && x>z && y>z){
-    alert("Max: " +x +" "+ "Min: "+z)
-}else if(y>x && y>z && x>z){
-    alert("Max: " +y +" "+ "Min: "+z)
+var max, min
+if (x >= y && x >= z) {
+    max = x;
+} else if (y >= x && y >= z) {
+    max = y;
+} else {
+    max = z;
 }
+
+if (x <= y && x <= z) {
+    min = x;
+} else if (y <= x && y <= z) {
+    min = y;
+} else {
+    min = z;
+}
+alert("Max element: "+max+" min element: "+min)
