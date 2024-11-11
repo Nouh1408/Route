@@ -33,8 +33,10 @@ if(inp>0){
 }else{
     alert("Negative")
 } */
+
+
 //q5
-var x = prompt("enter first number")
+/* var x = prompt("enter first number")
 var y = prompt("enter second number")
 var z = prompt("enter third number")
 var max, min
@@ -53,4 +55,12 @@ if (x <= y && x <= z) {
 } else {
     min = z;
 }
-alert("Max element: "+max+" min element: "+min)
+alert("Max element: "+max+" min element: "+min) */
+
+//q6
+/* var x= prompt("Enter a number: ")
+if(x%2==1){
+    alert("odd")
+}else{
+    alert("even")
+} */
