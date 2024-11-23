@@ -1,0 +1,68 @@
+
+.parent {
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.2fr 0.8fr 1fr 1fr;
+    gap: 10px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "iphone-txt iphone-txt iphone-txt iphone-pic iphone-pic iphone-pic chem chem chem chem chem chem"
+        "keyboard keyboard keyboard old-cmp old-cmp old-cmp down down down cloud cloud cloud"
+        "games games games ipad ipad ipad ipad ipad ipad cloud cloud cloud"
+        "twitter twitter twitter pop pop pop old-tv old-tv old-tv old-tv old-tv old-tv";
+}
+
+
+.iphone-txt {
+    grid-area: iphone-txt;
+}
+
+.iphone-pic {
+    grid-area: iphone-pic;
+}
+
+.chem {
+    grid-area: chem;
+    align-content: center;
+}
+
+.keyboard {
+    grid-area: keyboard;
+    background-color: #EF5638;
+}
+
+.old-cmp {
+    grid-area: old-cmp;
+}
+
+.down {
+    grid-area: down;
+}
+
+.cloud {
+    grid-area: cloud;
+}
+
+.games {
+    grid-area: games;
+}
+
+.ipad {
+    grid-area: ipad;
+}
+
+.twitter {
+    grid-area: twitter;
+}
+
+.pop {
+    grid-area: pop;
+}
+
+.old-tv {
+    grid-area: old-tv;
+}
+.parent img{
+    width: 100%;
+}
