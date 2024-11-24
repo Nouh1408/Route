@@ -48,13 +48,20 @@ h3{
     grid-area: iphone-pic;
     width: 250px;
     height: 100%;
-    
 }
 
 .chem {
     grid-area: chem;
     align-content: center;
-    
+}
+.head1{
+    font-size: 48px;
+    font-weight: 400;
+    color: #333333;
+}
+.download{
+    color:#27b9c2;
+    font-size: 14px;
 }
 
 .keyboard {
