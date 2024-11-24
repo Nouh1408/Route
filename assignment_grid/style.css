@@ -1,6 +1,7 @@
 
+
 .parent {
-    margin-top: 75px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1.2fr 0.8fr 1fr 1fr;
@@ -17,14 +18,43 @@
 .iphone-txt {
     grid-area: iphone-txt;
 }
+.title-cd {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    color: #9fa3a7;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.text-cd{
+    color: #9fa3a7;
+    font-family: "Open Sans", sans-serif;
+
+}
+.iphone-w{
+    width: 55%;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+}
 
 .iphone-pic {
     grid-area: iphone-pic;
+    width: 250px;
+    height: 100%;
+    
 }
 
 .chem {
     grid-area: chem;
     align-content: center;
+    
 }
 
 .keyboard {
