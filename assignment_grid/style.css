@@ -1,6 +1,12 @@
-
+body {
+    margin: 0;
+    padding: 0; 
+    height: 100vh; 
+}
 
 .parent {
+    margin: 0;
+    padding: 0;
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -19,7 +25,7 @@
     grid-area: iphone-txt;
 }
 .title-cd {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", serif;
     font-size: 12px;
     color: #9fa3a7;
     line-height: 20px;
@@ -30,7 +36,6 @@
 .text-cd{
     color: #9fa3a7;
     font-family: "Open Sans", sans-serif;
-
 }
 .iphone-w{
     width: 55%;
@@ -58,6 +63,8 @@ h3{
     font-size: 48px;
     font-weight: 400;
     color: #333333;
+    font-family: "Arvo", serif;
+
 }
 .download{
     color:#27b9c2;
