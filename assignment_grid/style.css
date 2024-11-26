@@ -74,6 +74,26 @@ h3{
 .keyboard {
     grid-area: keyboard;
     background-color: #EF5638;
+    height: 350px;
+   width: 100%;
+   display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: -20px;
+    justify-content: center; 
+    text-align: center;
+}
+.keyboard h3{
+    color: white;
+}
+.keyboard a{
+    margin-bottom: 200px;
+    color: #FFC80D;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .old-cmp {
