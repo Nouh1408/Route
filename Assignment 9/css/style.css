@@ -42,3 +42,19 @@ color: #79a953;
 .bg-sub-btn:hover{
     background-color: #BB4220;
 }
+.btn-visit{
+    background-color: #9EB23C;
+    color: white;
+}
+.btn-visit:hover{
+    background-color: #8A9E23;
+    color: white;
+}
+.btn-del{
+    background-color: #EB1D36;
+    color: white;
+}
+.btn-del:hover{
+    background-color: #D40820;
+    color: white;
+}
