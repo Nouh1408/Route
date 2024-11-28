@@ -16,7 +16,7 @@ main h1::before {
     bottom: 10px;
     background-color: #fec260;
     transition: height 0.3s;
-    cursor: pointer;
+    cursor: alias;
     z-index: -1;
 }
 main h1:hover::before {
