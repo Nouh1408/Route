@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'arvo';
+    src: url(../fonts/Arvo-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+h1, h2, h3 {
+    font-family: 'arvo';
+    color: rgb(51, 51, 51);
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 60px;
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 32px;
+}
+
+span {
+    font-family: 'Montserrat';
+    color: rgb(159, 163, 167);
+}
+
+p, button {
+    font-family: 'OpenSans';
+
+}
+
+p {
+    color: #9FA3A7;
+}
+
+.pc h3 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.pc1 {
+    position: absolute;
+    bottom: 100px;
+    right: 65px;
+    width: 100%;
+}
+
+.link-1 {
+    color: #FEBA1F;
+}
+
+.link-2 {
+    color: #27B9C2;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.link-3 {
+    color: #27B9C2;
+}
+
+.link-4 {
+    color: #27B9C2;
+    text-decoration: none;
+}
+
+.container-fluid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.1fr 1fr 0.9fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "mob mob mob mob mob mob details details details details details details"
+        "key key key pc pc pc pc pc pc disk disk disk"
+        "xbox xbox xbox lap lap lap lap lap lap disk disk disk"
+        "twitter twitter twitter details-2 details-2 details-2 tv tv tv tv tv tv";
+}
+
+.mob {
+    grid-area: mob;
+
+    background-color: white;
+}
+
+.details {
+    grid-area: details;
+
+    background-color: #F7F8F9;
+}
+
+.key {
+    grid-area: key;
+
+    background-color: #F05638;
+}
+
+.orange {
+    background-color: #F05638;
+
+}
+
+.key h3 {
+    color: white;
+}
+
+.lap h3 {
+    color: white;
+}
+
+.pc {
+    grid-area: pc;
+
+    background-color: white;
+}
+
+.disk {
+    grid-area: disk;
+    background-color: #8F76BC;
+}
+
+.cir-2 {
+    background-color: #8166B0;
+    width: 140%;
+    height: 140%;
+    border-radius: 50%;
+    margin: 40px;
+}
+
+.fla9-image {
+    background-color: #8B72B6;
+
+}
+
+.disk button {
+    background-color: #FFC80A;
+    border-color: transparent;
+}
+
+.xbox {
+    grid-area: xbox;
+    background-color: white;
+}
+
+.lap {
+    grid-area: lap;
+    background-color: #93B6B7;
+    background-image: url(../images/ux.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.cir {
+    border: 1px solid transparent;
+    width: 150%;
+    height: 150%;
+    border-radius: 50%;
+    background-color: #F05638;
+}
+
+.twitter {
+    grid-area: twitter;
+    background-color: #38D5F4;
+}
+
+.circle {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #35CFED;
+
+}
+
+.popular {
+
+    background-color: #7BC424;
+    border-color: transparent;
+}
+
+.details-2 {
+    grid-area: details-2;
+    background-color: white;
+}
+
+.tv {
+    grid-area: tv;
+    background-color: #2C2C2C;
+
+}
