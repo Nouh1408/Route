@@ -6,6 +6,12 @@
 body{
     background-color: #F7ECDE;
 }
+::-moz-selection{
+    background-color: #FEC160;
+}
+::selection{
+    background-color: #FEC160;
+}
 
 main h1::before {
     content: "";
@@ -31,12 +37,16 @@ main h1{
 main h2{
     font-family: var(--font-right);
     font-size: 25px;
-color: #79a953;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .bg-sub-btn{
     background-color: #D1512D;
     transition: 0.3s;
     cursor: pointer;
+    
     color: white;
 }
 .bg-sub-btn:hover{
