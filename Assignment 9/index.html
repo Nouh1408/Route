@@ -21,9 +21,11 @@
 <body>
     <main class="py-5 position-relative">
         <div class="container d-flex flex-column justify-content-center align-items-center">
+            
             <h1 class="py-2 position-relative">Bookmarker</h1>
             <div
-                class="bookmark-body w-100 p-3 py-4 mt-5 d-flex flex-column justify-content-center align-items-center gap-4">
+                class="bookmark-body w-100 p-3 py-4 mt-3 d-flex flex-column justify-content-center align-items-center gap-4">
+                <div class="dotted-line"></div>
                 <h2>
                     <i class="fa-solid fa-bookmark"></i>
                     Bookmark your favorite sites
@@ -41,8 +43,9 @@
                     <input type="url" placeholder="Website URL" class="form-control" id="bookmarkurl" />
                 </div>
                 <button onclick="addsite()" class="btn bg-sub-btn px-5" id="submit">Submit</button>
+                <div class="dotted-line"></div>
             </div>
-            <table class=" bg-primary mt-4 text-center w-100">
+            <table class=" bg-light mt-4 text-center w-100">
                 
                 <th>Index</th>
                 <th>Website Name</thead>

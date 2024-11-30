@@ -6,13 +6,22 @@
 body{
     background-color: #F7ECDE;
 }
+table tr {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+table td {
+    padding: 10px; /* Adjust the value as needed */
+}
+.dotted-line {
+    border-top: 2px dotted #352E28; /* Dotted line style */
+    width: 100%;
+}
 ::-moz-selection{
     background-color: #FEC160;
 }
 ::selection{
     background-color: #FEC160;
 }
-
 main h1::before {
     content: "";
     position: absolute;
@@ -51,6 +60,7 @@ main h2{
 }
 .bg-sub-btn:hover{
     background-color: #BB4220;
+    color: white;
 }
 .btn-visit{
     background-color: #9EB23C;
