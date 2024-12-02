@@ -1,16 +1,21 @@
 var bookmarkName = document.getElementById("bookmarkname")
 var bookmarkURL = document.getElementById("bookmarkurl")
 var sitelist = []
+if(localStorage.getItem("sites") != null) {
+    sitelist = JSON.parse(localStorage.getItem("sites"))
+    displaySites()
+}
 function addsite() {
-    let book = {
+    let mark = {
         siteName: bookmarkName.value,
         siteURL: bookmarkURL.value
     }
-    sitelist.push(book)
+    sitelist.push(mark)
     displaySites()
-
+    // sitelist.unshift(mark)
     bookmarkName.value = ''
     bookmarkURL.value = ''
+    localStorage.setItem("sites",JSON.stringify(sitelist))
 }
 function displaySites() {
     var cartona = ''
