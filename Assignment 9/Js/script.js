@@ -6,6 +6,17 @@ if(localStorage.getItem("sites") != null) {
     displaySites()
 }
 function addsite() {
+    let siteName = bookmarkName.value.trim();
+    let siteURL = bookmarkURL.value.trim();
+    if (siteName.length < 3) {
+        alert("Site name must contain at least 3 letters.");
+        return; 
+    }
+    const urlPattern = /^(https?:\/\/)?([a-z0-9-]+\.)+[a-z]{2,}(:[0-9]{1,5})?(\/.*)?$/i;
+    if (!urlPattern.test(siteURL)) {
+        alert("Please enter a valid URL.");
+        return; 
+    }
     let mark = {
         siteName: bookmarkName.value,
         siteURL: bookmarkURL.value
