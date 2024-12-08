@@ -30,3 +30,25 @@ input:focus,
 textarea:focus {
     box-shadow: 0 0 0 0 transparent !important;
 }
+.box-me{
+    border: 1px #FFC007 solid;
+    border-radius: 2px;
+    color: #FFEFCC;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.box-me:hover{
+    background-color: #FFC007;
+    color: #FFEFCC;
+}
+.edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.edit2{
+    width: 900px;
+    text-align: center;
+    height: 150px;
+}
